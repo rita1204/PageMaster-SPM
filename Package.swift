@@ -2,20 +2,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "TransitionableTab",
+    name: "PageMaster",
     platforms: [
         .iOS(.v11) // 必要に応じてバージョンを変更
     ],
     products: [
         .library(
-            name: "TransitionableTab",
-            targets: ["TransitionableTab"]
+            name: "PageMaster",
+            targets: ["PageMaster"]
         )
     ],
     targets: [
         .target(
-            name: "TransitionableTab",
-            path: "Sources/TransitionableTab"
+            name: "PageMaster",
+            path: "Sources/PageMaster"
         )
     ]
 )
