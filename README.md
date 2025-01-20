@@ -6,6 +6,10 @@ PageMaster is a wrapper class for easier use of UIPageViewController.
 ## Feature
 - Easier than UIPageViewController
 - Infinite paging
+- Added the following updates:
+  - Support for Swift Package Manager
+  - Fixed crashes occurring at the end of animations
+  - Added the ability to enable or disable the swipe paging feature
 
 ## Requirements
 - iOS 8.0+
@@ -42,8 +46,7 @@ extension ViewController: PageMasterDelegate {
 ```
 
 ## Install
-
-### SwiftPackage
+SwiftPackage-Support
 
 ## Licence
 
